@@ -3,4 +3,20 @@ class PagesController < ApplicationController
 
   def home
   end
+
+  def front_end
+  end
+  
+  def css
+  end
+
+  def html
+  end
+
+  def components
+  end
+
+   def javascript
+  end
+
 end

@@ -8,4 +8,11 @@ p {
 
 a {
     font-family: 'Open Sans', sans-serif; 
+    text-decoration:none;
+    outline: none;
+}
+
+a:link
+{
+text-decoration:none;
 }
