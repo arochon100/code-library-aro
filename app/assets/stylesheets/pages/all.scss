@@ -8,11 +8,19 @@ p {
 
 a {
     font-family: 'Open Sans', sans-serif; 
-    text-decoration:none;
+    text-decoration: none;
     outline: none;
 }
 
-a:link
+a:hover
 {
 text-decoration:none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: none;
 }

@@ -1,2 +1,35 @@
 
-    
+<%# FIL D'ARIANE %>
+<div class="fil-ariane">
+   <p><%= link_to "oups", root_path, class: " link ariane", data: { turbolinks: false } %> > 
+   <%= link_to "oups", front_end_path, class: " link ariane", data: { turbolinks: false }  %></p>     
+</div>
+
+<%# TITLE %>
+<div class="front-title">
+    <h1>FRONT-END</h1>
+</div>
+
+<%# CARDS %>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="box-level2">
+                    <%= link_to "HTML", front_end_path, class: "box-link" , data: { turbolinks: false } %>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="box-level2">
+                    <p>CSS</p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="box-level2">
+                    <p>JavaScript</p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="box-level2">
+                    <p>Components</p>
+        </div>
+    </div>
