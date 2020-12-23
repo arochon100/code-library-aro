@@ -1,0 +1,13 @@
+
+Source
+S1 => https://api.rubyonrails.org/v6.1.0/classes/ActionView/Helpers/AssetTagHelper.html#method-i-image_tag
+S2 => https://apidock.com/rails/ActionView/Helpers/AssetTagHelper/image_tag
+
+Exemple 1 
+• HTML => <img src="/assets/logo_fusée.png" alt="">
+• ERB => <%= image_tag("logo_fusée") %>
+
+
+
+
+
