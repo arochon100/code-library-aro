@@ -13,13 +13,8 @@
 <%# CONTENT %>
 <div class="container">
     <div class="row">
-        <div class="col-sm-12 col-md-8 div-level3-a">
-            <br>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            <h3 id="guide-assumption">
-                <a class="anchorlink" href="#guide-assumption">GUIDE ASSUMPTION</a>
-            </h3>
-        </div>  
+        
+        <%# BLOC DE GAUCHE %>
         <div class="col-sm-12 col-md-4 div-level3-b">
             <h3 class="chapter">
             <img src="/assets/logo_fusée.png" alt="">
@@ -28,10 +23,34 @@
             <h3>
             <ol class="liste-3">
                 <li>
-                <a href="#guide-assumption">Guide Assumptions</a>
+                <a class="title" href="#image">Image</a>
                 </li>
+                    <ul>
+                        <li>
+                            <a class="under-level" href="#image">Rails Helper</a>
+                        </li>
+                    </ul>
             </ol>
         </div>  
+
+
+        <%# BLOC DE DROITE %>
+        <div class="col-sm-12 col-md-8 div-level3-a">
+            <h3 id="image"><a class="anchor-link" href="#image">1 Image</a></h3>
+                <br>
+                <h4>1.1 Sources</h4>
+                    <p>• Source 1 => <a href="https://apidock.com/rails/ActionView/Helpers/AssetTagHelper/image_tag">apidock</a></p>
+                    <p>• Source 2 => <a href="https://api.rubyonrails.org/v6.1.0/classes/ActionView/Helpers/AssetTagHelper.html">api.rubyonrails.org</a></p>
+                <br> 
+                <h4>1.2 VScode - ERB Keyboard shortcuts</h4>
+                <p>• Source => <a href="https://marketplace.visualstudio.com/items?itemName=rayhanw.erb-helpers">Marketplace Visual Studio</a></p>
+                <br> 
+                <h4>1.3 html vs helper</h4>
+                <p>• HTML => [img src="/assets/logo_fusée.png" alt=""]</p>
+                <p>• ERB => [%= image_tag("logo_fusée") %]</p>
+        </div>  
+
+
     </div>
 </div>
 

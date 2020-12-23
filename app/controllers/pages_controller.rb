@@ -3,7 +3,7 @@ class PagesController < ApplicationController
 
   def home
   end
-
+# FRONT-END
   def front_end
   end
   
@@ -19,4 +19,7 @@ class PagesController < ApplicationController
    def javascript
   end
 
+  # BACK-END
+
+  
 end
